@@ -1,0 +1,86 @@
+*
+{
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    margin: 60px;
+    background: black;
+}
+
+h1
+{
+    margin-left: 70px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+nav ul li
+{
+    display: flex;
+    text-transform: uppercase;
+    margin: 30px;
+    letter-spacing: 2px;
+    color: white;
+    transition: 0.5s ease-in-out;
+    font-size: 15px;
+
+
+}
+nav ul li:hover
+{
+    font-size: 17px;
+    color: lawngreen;
+    transition: 0.5s ease-in-out;
+}
+
+nav ul
+{
+    display: flex;
+}
+
+nav
+{
+
+}
+
+
+/*Main*/
+section.main
+{
+    margin-top: 40px;
+
+}
+
+/*colmns*/
+section.column0
+{
+    display: flex;
+
+
+    height: 750px;
+}
+section.column1
+{
+    width: 60%;
+
+}
+
+section.column2
+{
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+img
+{
+
+    width: 100%;
+    max-height: 700px;
+    max-width: 300px;
+
+
+}
+
